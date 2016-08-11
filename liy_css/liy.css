@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #F1F1F1;
+}
+
+/*设置login*/
+.login{
+	width: 300px;
+	height: 200px;
+	border: 1px solid #B6BCCC;
+	text-align: center;
+	padding-top: 50px;
+	margin:50px auto;
+	background-color: #E6E6E6;
+	border-radius: 30px;
+}
+
+#submit{
+	width: 100px;
+	margin-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+div.login a{
+	font-size:12px;
+}
+
+/*设置register*/
+.container{
+	width: 700px;
+	border: 1px solid #B6BCCC;
+	padding-top: 50px;
+	margin:50px auto;
+	background-color: #E6E6E6;
+	border-radius: 20px;
+}
+
+.register{
+	margin-left: 30px;
+}
+
+div.register label{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+div.register label.sex{
+	text-align: left;
+}
+
+#female{
+	text-align: left;
+}
+.button{
+	text-align: center;
+}
+
+div.button input{
+	width: 60px;
+	margin: 10px ;
+}
+
+textarea{
+	resize:none;
+	margin-top: -35px;
+	margin-left: 110px;
+}
+
+/*设置userList*/
+ul{
+	list-style: none;
+}
+
+
+table{
+	background-color: #ccc;
+	margin: 20px auto 10px;
+}
+
+table a{
+	color:blue;
+}
+
+tr{
+	background-color: white;
+}
+tr:hover{
+	background-color: #E5EAF5;
+}
+
+td{
+	text-align: center;
+	padding: 8px;
+}
+
+caption{
+	padding-bottom:5px; 
+	font: bold 30px arial,sans-serif;
+}
+
+tr.head th{
+	background-color: #E6E6E6;
+}
+
+tr.sum td{ 
+	background-color: #A7A7A7;
+	font-size: 20px;
+	font-weight: bold;
+}

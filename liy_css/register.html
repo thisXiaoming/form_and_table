@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>register</title>
+<link rel="stylesheet" type="text/css" href="liy.css">
+</head>
+<body >
+<div class="container">
+	<div class="register">
+		<form action="" method="">
+			<a name="top">top</a><br/><br/>
+			<label for="name">姓名：</label>
+			<input id="name"type="text" name="name"/><br/><br/>
+
+			<label for="password">密码：</label>
+			<input id="password" type="password" name="password"/><br/><br/>
+			<label for="confirm">确认密码：</label>
+			<input id="confirm" type="password" name="password"/><br/><br/>
+			<label>性别：</label>
+			<input id="male" type="radio" name="sex" value="male" checked="checked"/>
+			<label for="male" class="sex">男</label>
+			<input id="female" type="radio" name="sex" value="female"/>
+			<label for="female" class="sex">女</label><br/><br/>
+			<label>前端技能：</label>
+			<input type="checkbox" name="HTML"/>HTML
+			<input type="checkbox" name="CSS"/>CSS
+			<input type="checkbox" name="JavaScript"/>JavaScript
+			<input type="checkbox" name="jQuery"/>jQuery
+			<input type="checkbox" name="Node.js"/>Node.js
+			<input type="checkbox" name="bootstrap"/>bootstrap
+			<input type="checkbox" name="Angular.js"/>Angular.js
+			<br/><br/>
+			<label for="hobby">爱好：</label>
+			<select id="hobby">
+				<option value="sing">唱歌</option>
+				<option value="climbing" selected="selected">爬山</option>
+				<option value="reading">读书</option>
+				<option value="swimming">游泳</option>
+			</select>
+			<br/><br/>
+			<label for="evaluation">个人评价：</label><br/><br/>
+			<textarea id="evaluation" rows="20" cols="60"></textarea>
+			<br/><br/>
+			<div class="button">
+				<input type="button" value="提交"/>
+				<input type="reset"  value="重置"/>
+			</div>
+			<a href="#top">连接到顶部</a><br/><br/>
+		</form>
+	</div>
+</div>
+</body>
+</html>
